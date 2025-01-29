@@ -454,6 +454,8 @@ std::tuple<Process, StartupToken> WorkerPool::StartWorkerProcess(
     const std::string &serialized_runtime_env_context,
     const rpc::RuntimeEnvInfo &runtime_env_info,
     std::optional<absl::Duration> worker_startup_keep_alive_duration) {
+  return {Process(), (StartupToken)-1};
+
   rpc::JobConfig *job_config = nullptr;
   if (!job_id.IsNil()) {
     auto it = all_jobs_.find(job_id);
