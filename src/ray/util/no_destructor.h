@@ -19,10 +19,12 @@
 
 namespace ray {
 
-// Defines a class which wraps a static object which never destructs upon program termination.
-// It's useful to avoid non-deterministic destruction order for global objects.
+// Defines a class which wraps a static object which never destructs upon program
+// termination. It's useful to avoid non-deterministic destruction order for global
+// objects.
 //
-// Another commonly-used solution is `new` and never destructs, but suffer pointer indirection overhead compared with placement new. 
+// Another commonly-used solution is `new` and never destructs, but suffer pointer
+// indirection overhead compared with placement new.
 template <class T>
 class NoDestructor {
  public:
@@ -30,13 +32,13 @@ class NoDestructor {
   NoDestructor() { new (&storage_) T{}; }
 
   // NOLINTNEXTLINE
-  explicit NoDestructor(const T& data) { new (&storage_) T{data}; }
+  explicit NoDestructor(const T &data) { new (&storage_) T{data}; }
 
   // NOLINTNEXTLINE
-  explicit NoDestructor(T&& data) { new (&storage_) T{std::move(data)}; }
+  explicit NoDestructor(T &&data) { new (&storage_) T{std::move(data)}; }
 
   template <typename... Args>
-  explicit NoDestructor(Args&&... args) {
+  explicit NoDestructor(Args &&...args) {
     new (&storage_) T{std::forward<Args>(args)...};
   }
 
@@ -44,10 +46,10 @@ class NoDestructor {
   ~NoDestructor() = default;
 
   // NOLINTNEXTLINE
-  T* get_ptr() & { return std::launder<T>(reinterpret_cast<T*>(&storage_)); }
+  T *get_ptr() & { return std::launder<T>(reinterpret_cast<T *>(&storage_)); }
 
-  T& operator*() & { return *get_ptr(); }
-  T* operator->() & { return get_ptr(); }
+  T &operator*() & { return *get_ptr(); }
+  T *operator->() & { return get_ptr(); }
 
  private:
   alignas(T) unsigned char storage_[sizeof(T)];  // NOLINT

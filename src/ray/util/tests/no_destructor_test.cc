@@ -23,8 +23,8 @@ class MyClass {
  public:
   MyClass() = default;
   MyClass(int) {}
-  MyClass(const MyClass&) = default;
-  MyClass(MyClass&&) = default;
+  MyClass(const MyClass &) = default;
+  MyClass(MyClass &&) = default;
 
   int Get() const { return 1; }
   ~MyClass() { assert(false); }
