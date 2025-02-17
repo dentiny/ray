@@ -222,3 +222,13 @@ ray_cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+ray_cc_test(
+    name = "map_test",
+    srcs = ["map_test.cc"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@com_google_absl//absl/types:span",
+        "@com_google_absl//absl/container:flat_hash_map",
+    ],
+)
