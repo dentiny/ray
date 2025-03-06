@@ -78,3 +78,4 @@ class MyDeployment:
 
 serve.run(MyDeployment.bind("12"))
 # __configure_parallism_end__
+

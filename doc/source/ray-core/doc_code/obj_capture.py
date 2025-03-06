@@ -14,3 +14,4 @@ def print_via_capture():
 # function, the global object refs (a, b, c) can be retrieved and printed.
 print_via_capture.remote()
 # -> prints [1, 2, 3]
+

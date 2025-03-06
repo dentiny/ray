@@ -161,3 +161,4 @@ result_grid = tuner.fit()
 
 assert not result_grid.errors
 assert len(result_grid[0].best_checkpoints) == NUM_EPOCHS // CHECKPOINT_FREQ
+

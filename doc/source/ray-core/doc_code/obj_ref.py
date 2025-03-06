@@ -16,3 +16,4 @@ a, b, c = ray.put(1), ray.put(2), ray.put(3)
 echo_and_get.remote([a, b, c])
 # -> prints args: [ObjectRef(...), ObjectRef(...), ObjectRef(...)]
 #           values: [1, 2, 3]
+

@@ -137,3 +137,4 @@ ray.get(pg.ready())
 # Retrieve a placement group with a global name.
 pg = ray.util.get_placement_group("global_name")
 # __get_pg_end__
+

@@ -100,3 +100,4 @@ if __name__ == "__main__":
     print(resp.status_code, resp.json())
 
     assert resp.status_code == 200
+

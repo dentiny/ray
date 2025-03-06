@@ -48,3 +48,4 @@ assert french_text == "Bonjour monde!"
 
 serve.shutdown()
 ray.shutdown()
+

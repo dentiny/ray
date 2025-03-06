@@ -32,3 +32,4 @@ outputs = ray.get(outputs)
 # __better_approach_end__
 
 assert outputs == [i * 2 for i in range(10)]
+

@@ -31,3 +31,4 @@ reduced = ray.get(reduce.remote(rollout_obj_ref))
 # __better_approach_end__
 
 assert reduced == 100000000
+

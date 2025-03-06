@@ -66,3 +66,4 @@ class Upstream:
 serve.run(Upstream.bind(Downstream.bind()))
 resp = requests.get("http://localhost:8000")
 # __serve_model_composition_example_end__
+

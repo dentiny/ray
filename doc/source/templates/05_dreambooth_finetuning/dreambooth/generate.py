@@ -78,3 +78,4 @@ def run(args):
 if __name__ == "__main__":
     args = run_model_flags().parse_args()
     run(args)
+

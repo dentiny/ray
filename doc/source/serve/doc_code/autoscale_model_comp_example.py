@@ -46,3 +46,4 @@ import requests  # noqa
 serve.run(app)
 resp = requests.post("http://localhost:8000")
 assert resp.json() == ["heavy", "light"]
+

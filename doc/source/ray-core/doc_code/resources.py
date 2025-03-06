@@ -57,3 +57,4 @@ ray.get(io_actor2.ping.remote())
 # (IOActor pid=96328) CUDA_VISIBLE_DEVICES: 1
 # (IOActor pid=96329) CUDA_VISIBLE_DEVICES: 1
 # __specifying_fractional_resource_requirements_end__
+

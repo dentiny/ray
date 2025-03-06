@@ -120,3 +120,4 @@ consume_func.remote(large_object)
 # since the argument is small and will be sent to the worker node inline directly.
 consume_func.remote(small_object)
 # __locality_aware_scheduling_end__
+

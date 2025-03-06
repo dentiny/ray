@@ -42,3 +42,4 @@ def f3():
 
 ray.get(f3.remote())
 # __better_approach_2_end__
+

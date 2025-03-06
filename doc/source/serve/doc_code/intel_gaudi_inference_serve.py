@@ -135,3 +135,4 @@ class LlamaModel:
 # Replace the model ID with path if necessary
 entrypoint = LlamaModel.bind("meta-llama/Llama-2-7b-chat-hf")
 # __model_def_end__
+

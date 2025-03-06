@@ -14,3 +14,4 @@ app = create_fake_email.bind()
 
 handle = serve.run(app)
 assert handle.remote().result() == "fake@fake.com"
+

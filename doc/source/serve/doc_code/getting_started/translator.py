@@ -75,3 +75,4 @@ assert french_text == "c'était le meilleur des temps, c'était le pire des temp
 
 serve.shutdown()
 ray.shutdown()
+

@@ -35,3 +35,4 @@ app = Ingress.bind(SayHi.bind())
 handle: DeploymentHandle = serve.run(app)
 assert handle.remote().result() == "Ray task got message: 'Hi from Serve deployment'"
 # __response_to_object_ref_example_end__
+

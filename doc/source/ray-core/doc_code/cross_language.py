@@ -100,3 +100,4 @@ with ray.init(job_config=ray.job_config.JobConfig(code_search_path=["/path/to/ra
   ray.get(obj_ref)  # <-- raise exception from here.
 # __raise_exception_demo_end__
 # fmt: on
+

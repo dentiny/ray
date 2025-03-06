@@ -17,3 +17,4 @@ submission_id = client.submit_job(
 
 print("Use the following command to follow this Job's logs:")
 print(f"ray job logs '{submission_id}' --follow")
+

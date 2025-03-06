@@ -52,3 +52,4 @@ class ImageModel:
 # __doc_deploy_begin__
 image_model = ImageModel.bind()
 # __doc_deploy_end__
+

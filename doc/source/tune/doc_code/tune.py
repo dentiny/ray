@@ -58,3 +58,4 @@ print("Submitting tasks...")
 results = ray.get(futures)
 print("Trial results", results)
 # __tasks_end__
+

@@ -38,3 +38,4 @@ def task():
 
 ray.get(task.remote())
 # __memray_profiling_task_end__
+

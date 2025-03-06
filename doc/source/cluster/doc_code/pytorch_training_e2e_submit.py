@@ -17,3 +17,4 @@ submission_id = client.submit_job(
 
 print("Use the following command to follow this Job's logs:")
 print(f"ray job logs '{submission_id}' --address http://127.0.0.1:8265 --follow")
+

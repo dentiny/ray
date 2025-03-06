@@ -142,3 +142,4 @@ if __name__ == "__main__":
     result = scipy.optimize.fmin_l_bfgs_b(
         full_loss, theta_init, maxiter=10, fprime=full_grad, disp=True
     )
+

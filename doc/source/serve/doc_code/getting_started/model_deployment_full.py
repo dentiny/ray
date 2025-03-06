@@ -43,3 +43,4 @@ assert response == "Bonjour monde!"
 
 serve.shutdown()
 ray.shutdown()
+

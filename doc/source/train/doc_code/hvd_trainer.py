@@ -74,3 +74,4 @@ trainer = HorovodTrainer(
     datasets={"train": train_dataset},
 )
 result = trainer.fit()
+

@@ -22,3 +22,4 @@ class MyDeployment:
             # The specific type of exception is not important.
             raise RuntimeError("uh-oh, DB connection is broken.")
             # __health_check_end__
+

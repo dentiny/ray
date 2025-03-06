@@ -203,3 +203,4 @@ if __name__ == "__main__":
         if chat.choices[0].delta.content is not None:
             print(chat.choices[0].delta.content, end="")
     # __query_example_end__
+

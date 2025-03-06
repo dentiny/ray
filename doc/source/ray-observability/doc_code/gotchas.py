@@ -32,3 +32,4 @@ def myfunc():
 ray.get(myfunc.remote())
 # this prints: "myenv is bar"
 # __env_var_fix_end__
+

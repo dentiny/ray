@@ -178,3 +178,4 @@ def set_batch_size(args):
 
 if __name__ == "__main__":
     run_fault_tolerant_loop()
+

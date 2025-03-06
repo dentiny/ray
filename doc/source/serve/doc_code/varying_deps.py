@@ -39,3 +39,4 @@ serve.run(app)
 
 assert requests.get("http://127.0.0.1:8000/?version=25").text == "2.25.1"
 assert requests.get("http://127.0.0.1:8000/?version=26").text == "2.26.0"
+

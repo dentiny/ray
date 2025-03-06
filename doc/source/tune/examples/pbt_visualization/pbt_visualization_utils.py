@@ -134,3 +134,4 @@ def make_animation(
     )
     ani.save(filename, writer=PillowWriter())
     plt.close()
+

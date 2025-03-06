@@ -7,3 +7,4 @@ class MyDeployment:
         from my_module import my_model
 
         self.model = my_model.load(model_path)
+

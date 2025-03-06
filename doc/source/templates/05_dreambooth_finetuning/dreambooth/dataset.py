@@ -159,3 +159,4 @@ def collate(batch, dtype):
         "images": images,
         "prompt_ids": prompt_ids,  # token ids should stay int.
     }
+

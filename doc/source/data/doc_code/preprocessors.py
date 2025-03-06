@@ -153,3 +153,4 @@ dataset_transformed = concatenator.fit_transform(dataset_transformed)
 print(dataset_transformed.take())
 # [{'concat_out': array([-1.,  1.])}, {'concat_out': array([ 1., -1.])}]
 # __concatenate_end__
+

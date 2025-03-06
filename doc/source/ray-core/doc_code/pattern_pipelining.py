@@ -64,3 +64,4 @@ ray.get(worker_without_pipelining.run.remote())
 work_queue = WorkQueue.remote()
 worker_with_pipelining = WorkerWithPipelining.remote(work_queue)
 ray.get(worker_with_pipelining.run.remote())
+

@@ -446,3 +446,4 @@ checkpoint = result.checkpoint
 with checkpoint.as_directory() as checkpoint_dir:
     lightning_checkpoint_path = f"{checkpoint_dir}/checkpoint.ckpt"
 # __inspect_lightning_checkpoint_example_end__
+

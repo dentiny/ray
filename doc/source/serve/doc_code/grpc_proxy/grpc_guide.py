@@ -391,3 +391,4 @@ assert call.details() == "foo found."
 assert any([key == "num" and value == "0" for key, value in call.trailing_metadata()])
 assert any([key == "request_id" for key, _ in call.trailing_metadata()])
 # __end_grpc_context_client__
+

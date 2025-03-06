@@ -68,3 +68,4 @@ print(
     "gradio-integration-parallel.py: Response from example code is",
     response.json()["data"],
 )
+

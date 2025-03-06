@@ -49,3 +49,4 @@ serve.run(app)
 # 3: Query the application and print the result.
 print(requests.post("http://localhost:8000/", json={"val": 100.0}).json())
 # {"result": 101.5}
+

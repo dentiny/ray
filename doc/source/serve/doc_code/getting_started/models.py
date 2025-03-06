@@ -61,3 +61,4 @@ print(summary)
 
 # Test model behavior
 assert summary == "it was the best of times, it was worst of times ."
+

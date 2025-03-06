@@ -32,3 +32,4 @@ with enable_dask_on_ray():
     d_arr.mean().compute()
 
 ray.shutdown()
+

@@ -67,3 +67,4 @@ if __name__ == "__main__":
 
     assert os.path.exists("output.jpeg")
     os.remove("output.jpeg")
+

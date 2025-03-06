@@ -83,3 +83,4 @@ def download_model(
 
 def get_mirror_link(model_id: str) -> str:
     return f"s3://llama-2-weights/models--{model_id.replace('/', '--')}"
+

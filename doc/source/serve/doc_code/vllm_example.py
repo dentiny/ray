@@ -124,3 +124,4 @@ if __name__ == "__main__":
     deployment = VLLMPredictDeployment.bind(model="facebook/opt-125m")
     serve.run(deployment)
     send_sample_request()
+

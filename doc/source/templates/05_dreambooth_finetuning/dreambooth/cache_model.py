@@ -18,3 +18,4 @@ def cache(args):
 if __name__ == "__main__":
     args = cache_model_flags().parse_args()
     cache(args)
+

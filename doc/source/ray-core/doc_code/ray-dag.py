@@ -190,3 +190,4 @@ assert ray.get(dag.execute(3)) == [4]
 assert ray.get(worker.num_forwarded.remote()) == 3
 # __dag_actor_reuse_end__
 # fmt: on
+

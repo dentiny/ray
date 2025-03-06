@@ -90,3 +90,4 @@ serve.run(FastAPIWrapper.bind(), route_prefix="/")
 resp = requests.get("http://localhost:8000/")
 assert resp.json() == "Hello from the root!"
 # __end_byo_fastapi__
+

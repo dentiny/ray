@@ -271,3 +271,4 @@ class DeepSpeedLlamaModel:
 # Replace the model ID with a path if necessary.
 entrypoint = DeepSpeedLlamaModel.bind(8, "meta-llama/Llama-2-70b-chat-hf")
 # __deploy_def_end__
+

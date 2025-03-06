@@ -30,3 +30,4 @@ model1 = supervisor1.fit.remote()
 model2 = supervisor2.fit.remote()
 assert ray.get(model1) == [1, 2, 3]
 assert ray.get(model2) == [2, 4, 6]
+

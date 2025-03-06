@@ -24,3 +24,4 @@ def get_pipeline(model_dir, lora_weights_dir=None):
         pipeline.unet = unet
         pipeline.text_encoder = text_encoder
     return pipeline
+

@@ -245,3 +245,4 @@ class ImageClassificationService(object):
 
 
 # __end__
+

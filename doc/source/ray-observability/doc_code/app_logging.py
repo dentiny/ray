@@ -20,3 +20,4 @@ class Actor:
 
 actor = Actor.remote()
 ray.get(actor.ready.remote())
+

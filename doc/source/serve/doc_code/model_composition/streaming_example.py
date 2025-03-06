@@ -40,3 +40,4 @@ handle: DeploymentHandle = serve.run(app).options(
 r: DeploymentResponseGenerator = handle.remote(10)
 assert list(r) == list(range(10))
 # __streaming_example_end__
+

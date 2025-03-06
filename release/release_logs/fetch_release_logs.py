@@ -217,3 +217,4 @@ def main(version: str, commit: str, branch: str):
 
 if __name__ == "__main__":
     main()
+

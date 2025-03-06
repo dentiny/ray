@@ -17,3 +17,4 @@ a = MyActor.remote(1)
 b = MyActor.remote(2)
 ray.get(a.foo.remote())
 ray.get(b.foo.remote())
+

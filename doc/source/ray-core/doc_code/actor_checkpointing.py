@@ -93,3 +93,4 @@ ray.get(actor.update.remote("2", 2))
 assert ray.get(actor.get.remote("1")) == 1
 shutil.rmtree(checkpoint_dir)
 # __actor_checkpointing_auto_restart_end__
+

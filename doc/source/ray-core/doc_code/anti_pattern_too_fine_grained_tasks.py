@@ -57,3 +57,4 @@ print(f"Parallelizing tasks with batching takes {end_time - start_time} seconds"
 # __batching_end__
 
 assert serial_doubled_numbers == parallel_doubled_numbers_with_batching
+

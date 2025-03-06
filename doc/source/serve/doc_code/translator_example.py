@@ -36,3 +36,4 @@ print(resp.text)
 # __request_end__
 
 assert resp.text == "Hallo, das Wetter ist heute ziemlich gut!"
+

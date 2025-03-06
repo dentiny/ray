@@ -35,3 +35,4 @@ while object_refs:
     results = ray.get(ready_object_refs)
     process_results(results)
 # __better_approach_end__
+

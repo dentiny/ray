@@ -73,3 +73,4 @@ class TFMnistModel:
 # __doc_deploy_begin__
 mnist_model = TFMnistModel.bind(TRAINED_MODEL_PATH)
 # __doc_deploy_end__
+

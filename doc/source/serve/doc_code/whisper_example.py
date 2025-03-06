@@ -80,3 +80,4 @@ class WhisperModel:
 
 
 entrypoint = WhisperModel.bind()
+

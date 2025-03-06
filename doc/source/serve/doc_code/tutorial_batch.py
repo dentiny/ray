@@ -31,3 +31,4 @@ class BatchTextGenerator:
 # __doc_deploy_begin__
 generator = BatchTextGenerator.bind("text-generation", "gpt2")
 # __doc_deploy_end__
+

@@ -34,3 +34,4 @@ while unfinished:
 # __anti_pattern_end__
 
 assert sum_in_submission_order == sum_in_completion_order
+

@@ -28,3 +28,4 @@ class Pickler(_Pickler):
         )
         # avoid being overrided by cloudpickle
         self.dispatch = _Pickler.dispatch.copy()
+

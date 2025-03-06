@@ -23,3 +23,4 @@ parallel_returns = ray.get(refs)
 # __anti_pattern_end__
 
 assert sequential_returns == parallel_returns
+

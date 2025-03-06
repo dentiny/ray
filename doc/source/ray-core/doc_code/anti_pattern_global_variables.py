@@ -49,3 +49,4 @@ ray.get(global_var_actor.set_global_var.remote(4))
 # This returns 7 correctly.
 assert ray.get(actor.f.remote()) == 7
 # __better_approach_end__
+

@@ -18,3 +18,4 @@ a, b, c = ray.put(1), ray.put(2), ray.put(3)
 # arguments, so `echo` will see the literal values (1, 2, 3) in this case as well.
 echo.remote(a, b, c)
 # -> prints "1 2 3"
+

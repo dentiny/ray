@@ -149,3 +149,4 @@ assert np.array_equal(
     ray.get(next(iter(ray.get(task_with_dynamic_returns_good.remote(2))))),
 )
 # __return_dynamic_multi_values_end__
+

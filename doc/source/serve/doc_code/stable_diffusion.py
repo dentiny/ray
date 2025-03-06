@@ -90,3 +90,4 @@ if __name__ == "__main__":
 
     assert os.path.exists("output.png")
     os.remove("output.png")
+

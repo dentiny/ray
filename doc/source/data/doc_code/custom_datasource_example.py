@@ -77,3 +77,4 @@ class ImageDatasink(RowBasedFileDatasink):
 # __write_datasink_start__
 ds.write_datasink(ImageDatasink("/tmp/results", column="image", file_format="png"))
 # __write_datasink_end__
+

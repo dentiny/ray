@@ -64,3 +64,4 @@ if __name__ == "__main__":
         },
     )  # noqa
     assert resp.text == "ox"
+

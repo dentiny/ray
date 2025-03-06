@@ -106,3 +106,4 @@ app = FastAPIIngress.bind()
 serve.run(app)
 assert requests.get("http://127.0.0.1:8000/Corey").text == "Hello Corey!"
 # __end_fastapi_ingress__
+

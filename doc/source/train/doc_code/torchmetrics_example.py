@@ -83,3 +83,4 @@ trainer = TorchTrainer(
 result = trainer.fit()
 print(result.metrics["valid_loss"], result.metrics["mean_valid_loss_collected"])
 # 0.5109779238700867 0.5512474775314331
+

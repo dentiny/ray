@@ -42,3 +42,4 @@ response = requests.get(
     "http://localhost:8000/iris", json=sample_request_input)
 print(response.text)
 # __serve_example_end__
+

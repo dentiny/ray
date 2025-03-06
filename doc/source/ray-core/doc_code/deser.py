@@ -16,3 +16,4 @@ except ray.exceptions.RayTaskError as e:
 #   File "test.py", line 6, in f
 #     arr[0] = 1
 # ValueError: assignment destination is read-only
+

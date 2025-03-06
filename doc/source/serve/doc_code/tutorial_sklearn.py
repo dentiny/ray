@@ -79,3 +79,4 @@ class BoostingModel:
 # __doc_deploy_begin__
 boosting_model = BoostingModel.bind(MODEL_PATH, LABEL_PATH)
 # __doc_deploy_end__
+

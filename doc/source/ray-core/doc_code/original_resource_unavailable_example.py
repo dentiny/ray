@@ -26,3 +26,4 @@ f.remote()
 f.options(
     scheduling_strategy=PlacementGroupSchedulingStrategy(placement_group=pg)
 ).remote()
+

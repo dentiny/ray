@@ -62,3 +62,4 @@ response = requests.post(
 assert response.status_code == 200
 print("gradio-integration.py: Response from example code is", response.json()["data"])
 serve.shutdown()
+

@@ -56,3 +56,4 @@ while not terminated and not truncated:
     obs, reward, terminated, truncated, info = env.step(actions)
     # Not at the beginning of the episode anymore.
     is_first = 0.0
+

@@ -6,3 +6,4 @@ class Faker:
 
     def email(self) -> str:
         return "fake@fake.com"
+

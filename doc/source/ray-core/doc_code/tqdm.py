@@ -12,3 +12,4 @@ def f(name):
 
 
 ray.get([f.remote("task 1"), f.remote("task 2")])
+

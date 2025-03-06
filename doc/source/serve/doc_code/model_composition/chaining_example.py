@@ -48,3 +48,4 @@ handle: DeploymentHandle = serve.run(app)
 response = handle.remote(5)
 assert response.result() == 12, "(5 + 1) * 2 = 12"
 # __chaining_example_end__
+

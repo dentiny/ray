@@ -21,3 +21,4 @@ print("Put work 1 - 10 to queue...")
 
 consumers = [consumer.remote(id, queue) for id in range(2)]
 ray.get(consumers)
+

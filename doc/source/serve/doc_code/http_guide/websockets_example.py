@@ -37,3 +37,4 @@ with connect("ws://localhost:8000") as websocket:
     websocket.send("I've found it!")
     assert websocket.recv() == "I've found it!"
 # __websocket_serve_client_end__
+

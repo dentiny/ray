@@ -15,3 +15,4 @@ pool = ActorPool([a1, a2])
 gen = pool.map(lambda a, v: a.double.remote(v), [1, 2, 3, 4])
 print(list(gen))
 # [2, 4, 6, 8]
+
